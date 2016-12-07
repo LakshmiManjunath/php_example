@@ -1,0 +1,31 @@
+/*Data within Homepage*/	
+.information{
+border:thin solid #EEEEA6;
+background-color:white;
+margin-right:10px;
+border-radius:20px/20px;
+margin-bottom:10px;
+padding-bottom:60px;
+}
+/*Cap-Stole & Bag images used in home-page*/
+.main-page-images{
+	border:1px solid #125212;
+	float:right;
+	margin-top:-80px;
+	margin-left:10px;
+}
+/*<li> used within home-page*/
+.main-page-list li {
+	list-style:none;
+	clear:right;
+	padding-bottom:40px;
+}
+/*Independent Para within the home-page*/
+#intro{
+	padding:20px;
+	padding-left:20px;
+	}
+/*Description within the list*/
+.description{	
+	padding-right:200px;
+}

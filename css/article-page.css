@@ -1,0 +1,51 @@
+/*Different artivle divs within Article-page*/
+.articles{
+border:thin solid #EEEEA6;
+background-color:white;
+margin-right:10px;
+padding-left:10px;
+padding-top:10px;
+border-radius:20px/20px;
+margin-bottom:10px;
+}
+
+#scomm-srevie p{
+	border:thin solid grey;
+	width:600px;
+	background-image:url("cross1.png");
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+
+#articles,#blog,#comm-reviews{
+background:url("images/bggreen.jpg");
+}
+
+/*Titles of each articles*/
+.article-titles{
+font-family: 'Love Ya Like A Sister', 'cursive';
+color:#6B2B00;
+}
+/*blog & Comments & Reviews Page*/
+.blog
+{
+border:thin solid #EEEEA6;
+height:50px;
+background-color:white;
+margin-right:10px;
+padding-left:10px;
+padding-top:10px;
+border-radius:20px/20px;
+margin-bottom:10px;
+}
+
+
+.comm-revi{
+	color:#663300;
+}
+
+textarea {
+	
+	width:400px;
+	height:80px;
+	resize:vertical}

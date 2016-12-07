@@ -1,0 +1,102 @@
+/*<body>*/
+.container{
+	background-color:#FFFFE2;
+	padding-right:10px;
+	padding-left:10px;
+	box-shadow: 0 0 100px #663300;
+		}
+
+body#mainpage{
+background:url("images/bggreen.jpg");
+}
+/*Purely for the data part*/	
+#main{
+	font-family:calibri;
+	font-size:16px;
+	}
+	
+/*Navigation Section*/	
+img#home-img{
+		height:1.5em;
+		}
+#navigation ul,#bread-crumb-navigation ul {
+	list-style: none; 
+	padding: 0;
+	padding-left:10px;
+	border-right:2px solid #EEEEA6;	
+	}
+#navigation ul li a {
+	display: block;
+	text-decoration: none; 
+	padding-left: 0.5em; 	
+	font-size:15px;
+	font-family:'Cabin Sketch','Allerta Stencil', 'sans-serif', 'cursive',calibri;
+	font-weight:bold;
+	color:#B24700;
+	}
+	
+/*Breadcrumb Navigation*/	
+#bread-crumb-navigation ul{
+	margin-bottom:0px;
+	background-color:#EEEEA6;
+	
+}
+
+#bread-crumb-navigation ul li{
+	display: inline;
+	padding-right:20px;		
+	}
+#bread-crumb-navigation{
+	margin-bottom:30px; 
+	padding-left:10px;
+	}
+#bread-crumb-navigation ul li a{
+	text-decoration: none;
+	font-family:'Cabin Sketch','Allerta Stencil', 'sans-serif', 'cursive',calibri;
+	font-size:16px;
+	font-weight:bold;
+	color:#B24700;
+	}
+.first-list{
+padding-left:160px;
+}
+
+#navigation ul li a:hover { border:thin solid #EEEEA6; background-color:white; color:#6B2B00;}
+#bread-crumb-navigation ul li a:hover { border: thin solid #EEEEA6; background-color: white; color:#6B2B00;}
+
+/*Header*/
+#header {margin-top: 1em;}
+#header h1 { 
+	padding-left: 50px; 
+	padding-top: 20px; 
+	background-image: url(../images/3.jpg); 
+	background-repeat: repeat-x; 
+	background-position:left; 
+	height: 120px; 
+	background-color: #125212;
+	border:2px solid #EEEEA6;
+	color:#FFFFCC;
+	font-family: 'Lobster', 'cursive',sans-serif;
+	font-size:50px;	
+	-webkit-text-stroke: 1px #125212;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	}
+/*Footer*/
+#footer{
+	margin-top:30px;
+	margin-left:-5px;
+	padding-top:10px;
+	padding-left:10px;
+	border-top:5px solid #EEEEA6;
+	}
+
+/*Highlighting the visited page*/
+#navigation ul li#iamhere a,#bread-crumb-navigation ul li#iamhere a,
+#navigation ul li#iamhere a:link,#bread-crumb-navigation ul li#iamhere a:link,
+#navigation ul li#iamhere a:visited,#bread-crumb-navigation ul li#iamhere a:visited,
+#navigation ul li#iamhere a:hover,#bread-crumb-navigation ul li#iamhere a:hover { border: thin solid #EEEEA6; background-color: white; color:#6B2B00;}

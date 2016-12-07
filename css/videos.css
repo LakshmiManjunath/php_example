@@ -1,0 +1,26 @@
+.videos{
+border:thin solid #EEEEA6;
+background-color:white;
+margin-right:10px;
+padding-left:10px;
+padding-top:10px;
+padding-bottom:30px;
+border-radius:20px/20px;
+margin-bottom:10px;
+}
+
+#videos{
+background:url("images/bggreen.jpg");
+}
+
+a:hover{color:#CC6600;}
+a{color:#6B2B00;}
+
+/*Titles of each articles*/
+.videos-titles{
+font-family: 'Love Ya Like A Sister', 'cursive';
+font-size:18px;
+font-weight:bold;
+color:#6B2B00;
+margin-bottom:5px;
+}
